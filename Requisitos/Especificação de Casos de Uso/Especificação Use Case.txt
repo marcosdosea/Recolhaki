@@ -1,0 +1,17 @@
+Requisitos
+Código     Descrição
+____________________________________________________________________________________________
+ UC01   -  Manter pessoa
+ UC02   -  Disponibilizar Material Reciclável para Coleta seletiva 
+ UC03   -  Avaliar coleta
+ UC04   -  Notificar problema
+ UC05   -  Manter coletor
+ UC06   -  Coletar Material Reciclável
+ UC07   -  Confirmar interesse material reciclável
+ UC08   -  Manter empresa
+ UC09   -  Notificar coletor
+ UC10   -  Avaliar problemas notificados
+ UC11   -  Visualizar avaliações de pessoas
+ UC12   -  Autorizar coletor 
+ UC13   -  Autorizar empresa coletora
+
