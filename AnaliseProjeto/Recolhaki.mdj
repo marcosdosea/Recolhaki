@@ -1071,11 +1071,11 @@
 												"$ref": "AAAAAAF5/eLki9o7ieY="
 											},
 											"font": "Arial;13;1",
-											"left": 484,
+											"left": 473.5,
 											"top": 243.5,
-											"width": 330,
+											"width": 282,
 											"height": 13,
-											"text": "Disponibilizar Material Reciclável para Coleta seletiva"
+											"text": "Manter disponibilização de material reciclável"
 										},
 										{
 											"_type": "LabelView",
@@ -1106,9 +1106,9 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 479,
+									"left": 468.5,
 									"top": 236.5,
-									"width": 340.916015625,
+									"width": 292.49609375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF5/eLki9o8lQw="
@@ -1208,7 +1208,7 @@
 							"containerChangeable": true,
 							"left": 408,
 							"top": 232,
-							"width": 482,
+							"width": 413,
 							"height": 35,
 							"autoResize": true,
 							"nameCompartment": {
@@ -5709,7 +5709,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 875,
+									"left": 862,
 									"top": 295,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -5729,7 +5729,7 @@
 										"$ref": "AAAAAAF6DERgj8SCR9w="
 									},
 									"font": "Arial;13;0",
-									"left": 847,
+									"left": 834,
 									"top": 310,
 									"width": 53.49169921875,
 									"height": 13,
@@ -5753,7 +5753,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 880,
+									"left": 867,
 									"top": 266,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -5772,7 +5772,7 @@
 								"$ref": "AAAAAAF6DEMOYbiPjbU="
 							},
 							"lineStyle": 1,
-							"points": "999:307;758:267",
+							"points": "999:308;732:267",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF6DERgj8SF9JA="
@@ -6005,8 +6005,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 939,
-									"top": 224,
+									"left": 927,
+									"top": 223,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -6025,8 +6025,8 @@
 										"$ref": "AAAAAAF6DET6L85qlg8="
 									},
 									"font": "Arial;13;0",
-									"left": 915,
-									"top": 239,
+									"left": 903,
+									"top": 238,
 									"width": 53.49169921875,
 									"height": 13,
 									"autoResize": true,
@@ -6049,8 +6049,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 936,
-									"top": 195,
+									"left": 924,
+									"top": 194,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -6068,7 +6068,7 @@
 								"$ref": "AAAAAAF6DETCvckJGMU="
 							},
 							"lineStyle": 1,
-							"points": "1071:201;806:231",
+							"points": "1071:200;782:231",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF6DET6L85tvlE="
@@ -7911,7 +7911,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 818,
+									"left": 800,
 									"top": 184,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -7931,7 +7931,7 @@
 										"$ref": "AAAAAAF8N/8ENC55sV4="
 									},
 									"font": "Arial;13;0",
-									"left": 798,
+									"left": 780,
 									"top": 198,
 									"width": 53.49169921875,
 									"height": 13,
@@ -7954,7 +7954,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 805,
+									"left": 789,
 									"top": 157,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -7973,7 +7973,7 @@
 								"$ref": "AAAAAAF8N/6vbywDx8k="
 							},
 							"lineStyle": 1,
-							"points": "935:123;689:231",
+							"points": "931:123;659:231",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF8N/8EOC58Ogk="
@@ -8397,7 +8397,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFElm6BOFNpegQ="
 					},
-					"name": "Disponibilizar Material Reciclável para Coleta seletiva"
+					"name": "Manter disponibilização de material reciclável"
 				},
 				{
 					"_type": "UMLUseCase",
