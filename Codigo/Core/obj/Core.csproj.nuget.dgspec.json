@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Codigo\\Core\\Core.csproj": {}
+    "C:\\Users\\natha\\Documents\\Recolhaki\\Core\\Core.csproj": {}
   },
   "projects": {
-    "E:\\Codigo\\Core\\Core.csproj": {
+    "C:\\Users\\natha\\Documents\\Recolhaki\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Codigo\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\natha\\Documents\\Recolhaki\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "E:\\Codigo\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Jessica\\.nuget\\packages\\",
-        "outputPath": "E:\\Codigo\\Core\\obj\\",
+        "projectPath": "C:\\Users\\natha\\Documents\\Recolhaki\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natha\\Documents\\Recolhaki\\Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jessica\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -70,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       }
     }
