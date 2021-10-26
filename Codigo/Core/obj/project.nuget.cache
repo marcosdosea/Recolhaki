@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Tyegj3c0b1lv+aQgArE6M7Ou05SnKAcUOIjmB4hDvfQzkfwZImqqc/Ky62yB/XFgz+FBeuD1YbzQcGgItNDWeQ==",
+  "dgSpecHash": "V3qHPgXJPHI9EsJS34/9x5n8qzSoFr1Rr/29HZEIvDo3Z74x+nxlHycRJTrIfU59fmVlM/3fJ0fALK3NvED6mg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\natha\\Documents\\Recolhaki\\Codigo\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\natha\\Documents\\Recolhaki\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\natha\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\natha\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",

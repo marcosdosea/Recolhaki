@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\natha\\Documents\\Recolhaki\\Codigo\\Core\\Core.csproj": {}
+    "C:\\Users\\natha\\Documents\\Recolhaki\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\natha\\Documents\\Recolhaki\\Codigo\\Core\\Core.csproj": {
+    "C:\\Users\\natha\\Documents\\Recolhaki\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\natha\\Documents\\Recolhaki\\Codigo\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\natha\\Documents\\Recolhaki\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\natha\\Documents\\Recolhaki\\Codigo\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\natha\\Documents\\Recolhaki\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\natha\\Documents\\Recolhaki\\Codigo\\Core\\obj\\",
+        "outputPath": "C:\\Users\\natha\\Documents\\Recolhaki\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
