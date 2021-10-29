@@ -36,6 +36,7 @@ namespace RecolhakiWeb
 
             // injeção dependência Services
             services.AddTransient<IManterColetorService, ManterColetorService>();
+            services.AddTransient<IDisponibilizarMaterialService, DisponibilizarMaterialService>();
             //services.AddTransient<IEditoraService, EditoraService>();
             //services.AddTransient<ILivroService, LivroService>();
             //services.AddTransient<IItemAcervoService, ItemAcervoService>();
