@@ -28,3 +28,18 @@ C:\Users\natha\Music\Recolhaki\Codigo\Core\obj\Debug\net5.0\Core.dll
 C:\Users\natha\Music\Recolhaki\Codigo\Core\obj\Debug\net5.0\ref\Core.dll
 C:\Users\natha\Music\Recolhaki\Codigo\Core\obj\Debug\net5.0\Core.pdb
 C:\Users\natha\Music\Recolhaki\Codigo\Core\obj\Debug\net5.0\Core.genruntimeconfig.cache
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Core\bin\Debug\net5.0\Core.deps.json
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Core\bin\Debug\net5.0\Core.runtimeconfig.json
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Core\bin\Debug\net5.0\Core.runtimeconfig.dev.json
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Core\bin\Debug\net5.0\Core.dll
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Core\bin\Debug\net5.0\ref\Core.dll
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Core\bin\Debug\net5.0\Core.pdb
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Core\obj\Debug\net5.0\Core.csproj.AssemblyReference.cache
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Core\obj\Debug\net5.0\Core.dll
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Core\obj\Debug\net5.0\ref\Core.dll
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Core\obj\Debug\net5.0\Core.pdb
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Core\obj\Debug\net5.0\Core.genruntimeconfig.cache

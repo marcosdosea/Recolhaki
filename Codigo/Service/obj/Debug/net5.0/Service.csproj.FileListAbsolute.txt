@@ -33,3 +33,21 @@ C:\Users\natha\Music\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.dll
 C:\Users\natha\Music\Recolhaki\Codigo\Service\obj\Debug\net5.0\ref\Service.dll
 C:\Users\natha\Music\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.pdb
 C:\Users\natha\Music\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.genruntimeconfig.cache
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Service\bin\Debug\net5.0\Service.deps.json
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Service\bin\Debug\net5.0\Service.runtimeconfig.json
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Service\bin\Debug\net5.0\Service.runtimeconfig.dev.json
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Service\bin\Debug\net5.0\Service.dll
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Service\bin\Debug\net5.0\ref\Service.dll
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Service\bin\Debug\net5.0\Service.pdb
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Service\bin\Debug\net5.0\Core.dll
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Service\bin\Debug\net5.0\Core.pdb
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.csproj.AssemblyReference.cache
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.AssemblyInfoInputs.cache
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.AssemblyInfo.cs
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.csproj.CoreCompileInputs.cache
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.csproj.CopyComplete
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.dll
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Service\obj\Debug\net5.0\ref\Service.dll
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.pdb
+D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.genruntimeconfig.cache
