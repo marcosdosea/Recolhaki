@@ -278,6 +278,11 @@ namespace Core
             OnModelCreatingPartial(modelBuilder);
         }
 
+        public void Add(Doacaomaterialreciclavel doacaomaterialreciclavel)
+        {
+            throw new NotImplementedException();
+        }
+
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }
 }

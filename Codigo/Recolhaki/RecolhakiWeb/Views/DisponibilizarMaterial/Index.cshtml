@@ -1,0 +1,59 @@
+﻿@model IEnumerable<RecolhakiWeb.ViewModels.DisponibilizarMaterialViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Doação de material reciclável</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdDoacaoMaterialReciclavel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Peso)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataManifestacaoInteresse)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdDoacaoMaterialReciclavel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Peso)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataManifestacaoInteresse)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.IdDoacaoMaterialReciclavel }) |
+                @Html.ActionLink("Details", "Details", new { id=item.IdDoacaoMaterialReciclavel }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.IdDoacaoMaterialReciclavel })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

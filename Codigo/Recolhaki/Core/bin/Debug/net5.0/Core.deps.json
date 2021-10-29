@@ -8,11 +8,24 @@
     ".NETCoreApp,Version=v5.0": {
       "Core/1.0.0": {
         "dependencies": {
+          "AutoMapper": "8.1.0",
           "Microsoft.EntityFrameworkCore.Design": "3.1.10",
           "MySql.Data.EntityFrameworkCore": "8.0.20"
         },
         "runtime": {
           "Core.dll": {}
+        }
+      },
+      "AutoMapper/8.1.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.0.0"
+          }
         }
       },
       "BouncyCastle.NetCore/1.8.3": {
@@ -1211,6 +1224,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AutoMapper/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Go75WXHE7p/8CtRaxZnvVEfcSh7xpE6zx9wkgN4I1BxvlzP0hoiTLHSXDYXgv9CoxaRj4ahwzCA/iwdpvyQyOA==",
+      "path": "automapper/8.1.0",
+      "hashPath": "automapper.8.1.0.nupkg.sha512"
     },
     "BouncyCastle.NetCore/1.8.3": {
       "type": "package",
