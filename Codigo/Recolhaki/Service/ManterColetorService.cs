@@ -92,7 +92,7 @@ namespace Service
             var pessoa = _context.Pessoa.Find(IdPessoa);
             _context.Remove(pessoa);
             _context.SaveChanges();
-            throw new NotImplementedException();
+           
         }
     }
 }
