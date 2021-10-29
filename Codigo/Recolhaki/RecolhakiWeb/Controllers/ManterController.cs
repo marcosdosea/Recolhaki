@@ -11,12 +11,12 @@ using System.Threading.Tasks;
 
 namespace RecolhakiWeb.Controllers
 {
-    public class ManterController : Controller
+    public class ManterColetorController : Controller
     {
         IManterColetorService _manterColetorService;
         IMapper _mapper;
 
-        public ManterController(IManterColetorService manterColetorService, IMapper mapper)
+        public ManterColetorController(IManterColetorService manterColetorService, IMapper mapper)
         {
             _manterColetorService = manterColetorService;
             _mapper = mapper;
