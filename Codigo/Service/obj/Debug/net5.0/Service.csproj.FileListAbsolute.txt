@@ -51,3 +51,21 @@ D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Serv
 D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Service\obj\Debug\net5.0\ref\Service.dll
 D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.pdb
 D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.genruntimeconfig.cache
+D:\Cloud Files\Dropbox\Guilherme\UFS\GitHub\Recolhaki\Codigo\Service\bin\Debug\net5.0\Service.deps.json
+D:\Cloud Files\Dropbox\Guilherme\UFS\GitHub\Recolhaki\Codigo\Service\bin\Debug\net5.0\Service.runtimeconfig.json
+D:\Cloud Files\Dropbox\Guilherme\UFS\GitHub\Recolhaki\Codigo\Service\bin\Debug\net5.0\Service.runtimeconfig.dev.json
+D:\Cloud Files\Dropbox\Guilherme\UFS\GitHub\Recolhaki\Codigo\Service\bin\Debug\net5.0\Service.dll
+D:\Cloud Files\Dropbox\Guilherme\UFS\GitHub\Recolhaki\Codigo\Service\bin\Debug\net5.0\ref\Service.dll
+D:\Cloud Files\Dropbox\Guilherme\UFS\GitHub\Recolhaki\Codigo\Service\bin\Debug\net5.0\Service.pdb
+D:\Cloud Files\Dropbox\Guilherme\UFS\GitHub\Recolhaki\Codigo\Service\bin\Debug\net5.0\Core.dll
+D:\Cloud Files\Dropbox\Guilherme\UFS\GitHub\Recolhaki\Codigo\Service\bin\Debug\net5.0\Core.pdb
+D:\Cloud Files\Dropbox\Guilherme\UFS\GitHub\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.csproj.AssemblyReference.cache
+D:\Cloud Files\Dropbox\Guilherme\UFS\GitHub\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cloud Files\Dropbox\Guilherme\UFS\GitHub\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.AssemblyInfoInputs.cache
+D:\Cloud Files\Dropbox\Guilherme\UFS\GitHub\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.AssemblyInfo.cs
+D:\Cloud Files\Dropbox\Guilherme\UFS\GitHub\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.csproj.CoreCompileInputs.cache
+D:\Cloud Files\Dropbox\Guilherme\UFS\GitHub\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.csproj.CopyComplete
+D:\Cloud Files\Dropbox\Guilherme\UFS\GitHub\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.dll
+D:\Cloud Files\Dropbox\Guilherme\UFS\GitHub\Recolhaki\Codigo\Service\obj\Debug\net5.0\ref\Service.dll
+D:\Cloud Files\Dropbox\Guilherme\UFS\GitHub\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.pdb
+D:\Cloud Files\Dropbox\Guilherme\UFS\GitHub\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.genruntimeconfig.cache
