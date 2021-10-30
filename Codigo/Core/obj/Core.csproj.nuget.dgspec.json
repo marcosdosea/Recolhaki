@@ -1,32 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Teste\\Recolhaki\\Codigo\\Core\\Core.csproj": {}
+    "D:\\Cloud Files\\Dropbox\\Guilherme\\UFS\\GitHub\\Recolhaki\\Codigo\\Core\\Core.csproj": {}
   },
   "projects": {
-    "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Teste\\Recolhaki\\Codigo\\Core\\Core.csproj": {
+    "D:\\Cloud Files\\Dropbox\\Guilherme\\UFS\\GitHub\\Recolhaki\\Codigo\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Teste\\Recolhaki\\Codigo\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\Cloud Files\\Dropbox\\Guilherme\\UFS\\GitHub\\Recolhaki\\Codigo\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Teste\\Recolhaki\\Codigo\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Frauzo\\.nuget\\packages\\",
-        "outputPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Teste\\Recolhaki\\Codigo\\Core\\obj\\",
+        "projectPath": "D:\\Cloud Files\\Dropbox\\Guilherme\\UFS\\GitHub\\Recolhaki\\Codigo\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
+        "outputPath": "D:\\Cloud Files\\Dropbox\\Guilherme\\UFS\\GitHub\\Recolhaki\\Codigo\\Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Frauzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://www.nuget.org/api/v2/curated-feeds/microsoftdotnet/": {}
         },
         "frameworks": {
           "net5.0": {
