@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Teste\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj": {}
+    "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj": {}
   },
   "projects": {
-    "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Teste\\Recolhaki\\Codigo\\Core\\Core.csproj": {
+    "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Teste\\Recolhaki\\Codigo\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Teste\\Recolhaki\\Codigo\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Frauzo\\.nuget\\packages\\",
-        "outputPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Teste\\Recolhaki\\Codigo\\Core\\obj\\",
+        "projectPath": "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Jessica\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Frauzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jessica\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -74,20 +74,20 @@
         }
       }
     },
-    "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Teste\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj": {
+    "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Teste\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj",
+        "projectUniqueName": "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj",
         "projectName": "RecolhakiWeb",
-        "projectPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Teste\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj",
-        "packagesPath": "C:\\Users\\Frauzo\\.nuget\\packages\\",
-        "outputPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Teste\\Recolhaki\\Codigo\\RecolhakiWeb\\obj\\",
+        "projectPath": "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj",
+        "packagesPath": "C:\\Users\\Jessica\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\RecolhakiWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Frauzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jessica\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -102,11 +102,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Teste\\Recolhaki\\Codigo\\Core\\Core.csproj": {
-                "projectPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Teste\\Recolhaki\\Codigo\\Core\\Core.csproj"
+              "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\Core\\Core.csproj"
               },
-              "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Teste\\Recolhaki\\Codigo\\Service\\Service.csproj": {
-                "projectPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Teste\\Recolhaki\\Codigo\\Service\\Service.csproj"
+              "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\Service\\Service.csproj"
               }
             }
           }
@@ -158,20 +158,20 @@
         }
       }
     },
-    "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Teste\\Recolhaki\\Codigo\\Service\\Service.csproj": {
+    "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Teste\\Recolhaki\\Codigo\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Teste\\Recolhaki\\Codigo\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\Frauzo\\.nuget\\packages\\",
-        "outputPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Teste\\Recolhaki\\Codigo\\Service\\obj\\",
+        "projectPath": "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\Jessica\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Frauzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jessica\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -186,8 +186,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Teste\\Recolhaki\\Codigo\\Core\\Core.csproj": {
-                "projectPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Teste\\Recolhaki\\Codigo\\Core\\Core.csproj"
+              "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\Core\\Core.csproj"
               }
             }
           }
@@ -202,6 +202,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
