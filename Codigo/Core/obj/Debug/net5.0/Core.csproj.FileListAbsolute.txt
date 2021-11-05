@@ -43,18 +43,3 @@ D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Core
 D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Core\obj\Debug\net5.0\ref\Core.dll
 D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Core\obj\Debug\net5.0\Core.pdb
 D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Core\obj\Debug\net5.0\Core.genruntimeconfig.cache
-C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Core\bin\Debug\net5.0\Core.deps.json
-C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Core\bin\Debug\net5.0\Core.runtimeconfig.json
-C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Core\bin\Debug\net5.0\Core.runtimeconfig.dev.json
-C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Core\bin\Debug\net5.0\Core.dll
-C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Core\bin\Debug\net5.0\ref\Core.dll
-C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Core\bin\Debug\net5.0\Core.pdb
-C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Core\obj\Debug\net5.0\Core.csproj.AssemblyReference.cache
-C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
-C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
-C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
-C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Core\obj\Debug\net5.0\Core.dll
-C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Core\obj\Debug\net5.0\ref\Core.dll
-C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Core\obj\Debug\net5.0\Core.pdb
-C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Core\obj\Debug\net5.0\Core.genruntimeconfig.cache
