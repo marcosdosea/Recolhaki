@@ -9,7 +9,6 @@
       "Service/1.0.0": {
         "dependencies": {
           "Core": "1.0.0",
-          "MSTest.TestFramework": "2.1.0",
           "Microsoft.EntityFrameworkCore.Design": "3.1.10"
         },
         "runtime": {
@@ -287,18 +286,6 @@
             "assetType": "runtime",
             "assemblyVersion": "4.0.1.0",
             "fileVersion": "4.700.19.46214"
-          }
-        }
-      },
-      "MSTest.TestFramework/2.1.0": {
-        "runtime": {
-          "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {
-            "assemblyVersion": "14.0.0.0",
-            "fileVersion": "14.0.4503.1"
-          },
-          "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {
-            "assemblyVersion": "14.0.0.0",
-            "fileVersion": "14.0.4503.1"
           }
         }
       },
@@ -1428,13 +1415,6 @@
       "sha512": "sha512-Edg+pFW5C8WJb680Za2kTV8TqUi6Ahl/WldRVoOVJ23UQLpDHFspa+umgFjkWZw24ETsU99Cg+ErZz683M4chg==",
       "path": "microsoft.win32.systemevents/4.6.0",
       "hashPath": "microsoft.win32.systemevents.4.6.0.nupkg.sha512"
-    },
-    "MSTest.TestFramework/2.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-FcW3sokxmi52e4gzBdv4bv59yQWJ0Lg2F579U82O4V9Pr7aNwTe7HxlHChzQqvcqgnH69XH8aDfMlfM3Y1wjAg==",
-      "path": "mstest.testframework/2.1.0",
-      "hashPath": "mstest.testframework.2.1.0.nupkg.sha512"
     },
     "MySql.Data/8.0.20": {
       "type": "package",

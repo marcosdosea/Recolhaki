@@ -7,9 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecolhakiWeb", "RecolhakiWe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{92DEF68F-729A-4131-9400-181B61F0B967}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{D2BA0453-CC24-4743-9DF8-DD01F5CB345F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecolhakiWebTests", "RecolhakiWebTests\RecolhakiWebTests.csproj", "{D03A2D87-A0C1-4B9F-A6CE-D5EE132B9896}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{D2BA0453-CC24-4743-9DF8-DD01F5CB345F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{D2BA0453-CC24-4743-9DF8-DD01F5CB345F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2BA0453-CC24-4743-9DF8-DD01F5CB345F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2BA0453-CC24-4743-9DF8-DD01F5CB345F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D03A2D87-A0C1-4B9F-A6CE-D5EE132B9896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D03A2D87-A0C1-4B9F-A6CE-D5EE132B9896}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D03A2D87-A0C1-4B9F-A6CE-D5EE132B9896}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D03A2D87-A0C1-4B9F-A6CE-D5EE132B9896}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
