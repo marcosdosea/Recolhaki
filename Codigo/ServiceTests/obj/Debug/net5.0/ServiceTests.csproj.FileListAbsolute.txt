@@ -1,0 +1,6 @@
+C:\Users\natha\Desktop\Dev\Recolhaki\Codigo\ServiceTests\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Users\natha\Desktop\Dev\Recolhaki\Codigo\ServiceTests\obj\Debug\net5.0\ServiceTests.csproj.AssemblyReference.cache
+C:\Users\natha\Desktop\Dev\Recolhaki\Codigo\ServiceTests\obj\Debug\net5.0\ServiceTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natha\Desktop\Dev\Recolhaki\Codigo\ServiceTests\obj\Debug\net5.0\ServiceTests.AssemblyInfoInputs.cache
+C:\Users\natha\Desktop\Dev\Recolhaki\Codigo\ServiceTests\obj\Debug\net5.0\ServiceTests.AssemblyInfo.cs
+C:\Users\natha\Desktop\Dev\Recolhaki\Codigo\ServiceTests\obj\Debug\net5.0\ServiceTests.csproj.CoreCompileInputs.cache
