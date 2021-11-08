@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace Service
 {
-    public class ManterPessoaService : IManterPessoaService
+    public class PessoaService : IPessoaService
     {
         private readonly recolhakiContext _context;
 
 
-        public ManterPessoaService(recolhakiContext context)
+        public PessoaService(recolhakiContext context)
         {
             _context = context;
         }
@@ -65,7 +65,7 @@ namespace Service
             throw new NotImplementedException();
         }
 
-        public IEnumerable<ManterPessoaDTO> ObterPorNomeOrdenadoDescendign(string nome)
+        public IEnumerable<PessoaDTO> ObterPorNomeOrdenadoDescendign(string nome)
         {
             //var query = from pessoa in _context.Pessoa
             //             where pessoa.Nome.StartsWith(nome)

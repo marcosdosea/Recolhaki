@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Core.Service
 {
-    public interface IManterPessoaService
+    public interface IPessoaService
     {
         void Editar(Pessoa pessoa);
         int Inserir(Pessoa pessoa);
