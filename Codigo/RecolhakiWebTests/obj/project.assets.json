@@ -9428,20 +9428,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\natha\\.nuget\\packages\\": {}
+    "C:\\Users\\Jessica\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\natha\\Desktop\\Dev\\Recolhaki\\Codigo\\RecolhakiWebTests\\RecolhakiWebTests.csproj",
+      "projectUniqueName": "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\RecolhakiWebTests\\RecolhakiWebTests.csproj",
       "projectName": "RecolhakiWebTests",
-      "projectPath": "C:\\Users\\natha\\Desktop\\Dev\\Recolhaki\\Codigo\\RecolhakiWebTests\\RecolhakiWebTests.csproj",
-      "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\natha\\Desktop\\Dev\\Recolhaki\\Codigo\\RecolhakiWebTests\\obj\\",
+      "projectPath": "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\RecolhakiWebTests\\RecolhakiWebTests.csproj",
+      "packagesPath": "C:\\Users\\Jessica\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\RecolhakiWebTests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Jessica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -9454,8 +9459,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\natha\\Desktop\\Dev\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj": {
-              "projectPath": "C:\\Users\\natha\\Desktop\\Dev\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj"
+            "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj": {
+              "projectPath": "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj"
             }
           }
         }
@@ -9502,7 +9507,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

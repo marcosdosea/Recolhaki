@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Core.Service
 {
-    public interface IManterColetorService
+    public interface IColetorService
     {
         void Editar(Pessoa pessoa);
         int Inserir(Pessoa pessoa);
@@ -15,7 +15,7 @@ namespace Core.Service
         IEnumerable<Pessoa> ObterPorNome(string nome);
         IEnumerable<Pessoa> ObterTodos();
         void Remover(int IdPessoa);
-        IEnumerable<ManterColetorDTO> ObterPorNomeOrdenadoDescendign(string nome);
+        IEnumerable<ColetorDTO> ObterPorNomeOrdenadoDescendign(string nome);
 
         
     }

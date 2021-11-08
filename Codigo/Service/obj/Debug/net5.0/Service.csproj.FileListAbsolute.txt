@@ -51,3 +51,21 @@ D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Serv
 D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Service\obj\Debug\net5.0\ref\Service.dll
 D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.pdb
 D:\Arquivos diretos desse notebook\Área de Trabalho\Teste\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.genruntimeconfig.cache
+C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.csproj.AssemblyReference.cache
+C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.AssemblyInfoInputs.cache
+C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.AssemblyInfo.cs
+C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.dll
+C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Service\obj\Debug\net5.0\ref\Service.dll
+C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.pdb
+C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Service\bin\Debug\net5.0\Service.deps.json
+C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Service\bin\Debug\net5.0\Service.runtimeconfig.json
+C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Service\bin\Debug\net5.0\Service.runtimeconfig.dev.json
+C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Service\bin\Debug\net5.0\Service.dll
+C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Service\bin\Debug\net5.0\ref\Service.dll
+C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Service\bin\Debug\net5.0\Service.pdb
+C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Service\bin\Debug\net5.0\Core.dll
+C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Service\bin\Debug\net5.0\Core.pdb
+C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.csproj.CopyComplete
+C:\Users\Jessica\Documents\2021.1\Engenharia de Software II\Recolhaki\Codigo\Service\obj\Debug\net5.0\Service.genruntimeconfig.cache
