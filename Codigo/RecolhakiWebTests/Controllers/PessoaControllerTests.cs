@@ -16,19 +16,19 @@ using System.Threading.Tasks;
 namespace RecolhakiWeb.Controllers.Tests
 {
     [TestClass()]
-    public class ManterPessoaControllerTests
+    public class PessoaControllerTests
     {
 
-        private static ManterPessoaController controller;
+        private static PessoaController controller;
 
         [ClassInitialize]
         public static void Initialize(TestContext testContext)
         {
             // Arrange
-            var mockService = new Mock<IManterPessoaService>();
+            var mockService = new Mock<IPessoaService>();
 
             IMapper mapper = new MapperConfiguration(cfg =>
-                cfg.AddProfile(new ManterPessoaProfile())).CreateMapper();
+                cfg.AddProfile(new PessoaProfile())).CreateMapper();
 
             mockService.Setup(service => service.ObterTodos())
                 .Returns(GetTestPessoas());
@@ -38,7 +38,7 @@ namespace RecolhakiWeb.Controllers.Tests
                 .Verifiable();
             mockService.Setup(service => service.Inserir(It.IsAny<Pessoa>()))
                 .Verifiable();
-            controller = new ManterPessoaController(mockService.Object, mapper);
+            controller = new PessoaController(mockService.Object, mapper);
         }
 
         [TestMethod()]
@@ -50,8 +50,8 @@ namespace RecolhakiWeb.Controllers.Tests
             // Assert
             Assert.IsInstanceOfType(result, typeof(ViewResult));
             ViewResult viewResult = (ViewResult)result;
-            Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(List<ManterPessoaViewModel>));
-            List<ManterPessoaViewModel> lista = (List<ManterPessoaViewModel>)viewResult.ViewData.Model;
+            Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(List<PessoaViewModel>));
+            List<PessoaViewModel> lista = (List<PessoaViewModel>)viewResult.ViewData.Model;
             Assert.AreEqual(3, lista.Count);
         }
 
@@ -64,9 +64,9 @@ namespace RecolhakiWeb.Controllers.Tests
             // Assert
             Assert.IsInstanceOfType(result, typeof(ViewResult));
             ViewResult viewResult = (ViewResult)result;
-            Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(ManterPessoaViewModel));
-            ManterPessoaViewModel manterPessoaViewModel = (ManterPessoaViewModel)viewResult.ViewData.Model;
-            Assert.AreEqual("Machado de Assis", manterPessoaViewModel.Nome);
+            Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(PessoaViewModel));
+            PessoaViewModel PessoaViewModel = (PessoaViewModel)viewResult.ViewData.Model;
+            Assert.AreEqual("Machado de Assis", PessoaViewModel.Nome);
             
         }
 
@@ -118,9 +118,9 @@ namespace RecolhakiWeb.Controllers.Tests
             // Assert
             Assert.IsInstanceOfType(result, typeof(ViewResult));
             ViewResult viewResult = (ViewResult)result;
-            Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(ManterPessoaViewModel));
-            ManterPessoaViewModel manterPessoaViewModel = (ManterPessoaViewModel)viewResult.ViewData.Model;
-            Assert.AreEqual("Machado de Assis", manterPessoaViewModel.Nome);
+            Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(PessoaViewModel));
+            PessoaViewModel PessoaViewModel = (PessoaViewModel)viewResult.ViewData.Model;
+            Assert.AreEqual("Machado de Assis", PessoaViewModel.Nome);
            
         }
 
@@ -133,9 +133,9 @@ namespace RecolhakiWeb.Controllers.Tests
             // Assert
             Assert.IsInstanceOfType(result, typeof(ViewResult));
             ViewResult viewResult = (ViewResult)result;
-            Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(ManterPessoaViewModel));
-            ManterPessoaViewModel manterPessoaViewModel = (ManterPessoaViewModel)viewResult.ViewData.Model;
-            Assert.AreEqual("Machado de Assis", manterPessoaViewModel.Nome);
+            Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(PessoaViewModel));
+            PessoaViewModel PessoaViewModel = (PessoaViewModel)viewResult.ViewData.Model;
+            Assert.AreEqual("Machado de Assis", PessoaViewModel.Nome);
             
         }
 
@@ -143,7 +143,7 @@ namespace RecolhakiWeb.Controllers.Tests
         public void DeleteTest_Get()
         {
             // Act
-            var result = controller.Delete(GetTargetPessoaModel().IdPessoa, GetTargetPessoaModel());
+            var result = controller.Delete(GetTargetPessoaModel().IdAutor, GetTargetPessoaModel());
 
             // Assert
             Assert.IsInstanceOfType(result, typeof(RedirectToActionResult));
@@ -151,9 +151,9 @@ namespace RecolhakiWeb.Controllers.Tests
             Assert.IsNull(redirectToActionResult.ControllerName);
             Assert.AreEqual("Index", redirectToActionResult.ActionName);
         }
-        private static ManterPessoaViewModel GetNewPessoa()
+        private static PessoaViewModel GetNewPessoa()
         {
-            return new ManterPessoaViewModel
+            return new PessoaViewModel
             {
                 IdPessoa = 4,
                 Nome = "Ian Sommerville",
@@ -169,9 +169,9 @@ namespace RecolhakiWeb.Controllers.Tests
             };
         }
 
-        private static ManterPessoaViewModel GetTargetPessoaModel()
+        private static PessoaViewModel GetTargetPessoaModel()
         {
-            return new ManterPessoaViewModel
+            return new PessoaViewModel
             {
                 IdPessoa = 2,
                 Nome = "Machado de Assis",
