@@ -143,7 +143,7 @@ namespace RecolhakiWeb.Controllers.Tests
         public void DeleteTest_Get()
         {
             // Act
-            var result = controller.Delete(GetTargetPessoaModel().IdAutor, GetTargetPessoaModel());
+            var result = controller.Delete(GetTargetPessoaModel().IdPessoa, GetTargetPessoaModel());
 
             // Assert
             Assert.IsInstanceOfType(result, typeof(RedirectToActionResult));
