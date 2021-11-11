@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace RecolhakiWeb.Mappers
 {
-    public class ManterColetorProfile : Profile
+    public class ColetorProfile : Profile
     {
-        public ManterColetorProfile()
+        public ColetorProfile()
         {
-            CreateMap<ManterColetorViewModel, Pessoa>().ReverseMap();
+            CreateMap<ColetorViewModel, Pessoa>().ReverseMap();
         }
     }
 }

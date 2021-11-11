@@ -35,7 +35,7 @@ namespace RecolhakiWeb
                     Configuration.GetConnectionString("RecolhakiDataBase")));
 
             // injeção dependência Services
-            services.AddTransient<IManterColetorService, ManterColetorService>();
+            services.AddTransient<IColetorService, ColetorService>();
             services.AddTransient<IDisponibilizarMaterialService, DisponibilizarMaterialService>();
             services.AddTransient<IManterPessoaService, ManterPessoaService>();
             //services.AddTransient<ILivroService, LivroService>();

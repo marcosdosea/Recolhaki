@@ -11,14 +11,14 @@ using System.Threading.Tasks;
 
 namespace RecolhakiWeb.Controllers
 {
-    public class ManterColetorController : Controller
+    public class ColetorController : Controller
     {
-        IManterColetorService _manterColetorService;
+        IColetorService _ColetorService;
         IMapper _mapper;
 
-        public ManterColetorController(IManterColetorService manterColetorService, IMapper mapper)
+        public ColetorController(IColetorService manterColetorService, IMapper mapper)
         {
-            _manterColetorService = manterColetorService;
+            _ColetorService = manterColetorService;
             _mapper = mapper;
         }
 
@@ -27,8 +27,8 @@ namespace RecolhakiWeb.Controllers
         // GET: ManterController
         public ActionResult Index()
         {
-            var listaAutores = _manterColetorService.ObterTodos();
-            var listaAutoresModel = _mapper.Map<List<ManterColetorViewModel>>(listaAutores);
+            var listaAutores = _ColetorService.ObterTodos();
+            var listaAutoresModel = _mapper.Map<List<ColetorViewModel>>(listaAutores);
             return View(listaAutoresModel);
           
         }
@@ -36,8 +36,8 @@ namespace RecolhakiWeb.Controllers
         // GET: ManterController/Details/5
         public ActionResult Details(int id)
         {
-            Pessoa pessoa = _manterColetorService.Obter(id);
-            ManterColetorViewModel manterColetorModel = _mapper.Map<ManterColetorViewModel>(pessoa);
+            Pessoa pessoa = _ColetorService.Obter(id);
+            ColetorViewModel manterColetorModel = _mapper.Map<ColetorViewModel>(pessoa);
             return View(manterColetorModel);
         }
 
@@ -50,12 +50,12 @@ namespace RecolhakiWeb.Controllers
         // POST: ManterController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(ManterColetorViewModel manterColetorViewModel)
+        public ActionResult Create(ColetorViewModel manterColetorViewModel)
         {
             if (ModelState.IsValid)
             {
                 var autor = _mapper.Map<Pessoa>(manterColetorViewModel);
-                _manterColetorService.Inserir(autor);
+                _ColetorService.Inserir(autor);
             }
             return RedirectToAction(nameof(Index));
         }
@@ -63,20 +63,20 @@ namespace RecolhakiWeb.Controllers
         // GET: ManterController/Edit/5
         public ActionResult Edit(int id)
         {
-            Pessoa pessoa = _manterColetorService.Obter(id);
-            ManterColetorViewModel manterColetorViewModel = _mapper.Map<ManterColetorViewModel>(pessoa);
+            Pessoa pessoa = _ColetorService.Obter(id);
+            ColetorViewModel manterColetorViewModel = _mapper.Map<ColetorViewModel>(pessoa);
             return View(manterColetorViewModel);
         }
 
         // POST: ManterController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, ManterColetorViewModel manterColetorViewModel)
+        public ActionResult Edit(int id, ColetorViewModel manterColetorViewModel)
         {
             if (ModelState.IsValid)
             {
                 var autor = _mapper.Map<Pessoa>(manterColetorViewModel);
-                _manterColetorService.Editar(autor);
+                _ColetorService.Editar(autor);
             }
             return RedirectToAction(nameof(Index));
         }
@@ -84,8 +84,8 @@ namespace RecolhakiWeb.Controllers
         // GET: ManterController/Delete/5
         public ActionResult Delete(int id)
         {
-            Pessoa pessoa = _manterColetorService.Obter(id);
-            ManterColetorViewModel manterColetorViewModel = _mapper.Map<ManterColetorViewModel>(pessoa);
+            Pessoa pessoa = _ColetorService.Obter(id);
+            ColetorViewModel manterColetorViewModel = _mapper.Map<ColetorViewModel>(pessoa);
             return View(manterColetorViewModel);
         }
 
@@ -94,7 +94,7 @@ namespace RecolhakiWeb.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, IFormCollection collection)
         {
-            _manterColetorService.Remover(id);
+            _ColetorService.Remover(id);
             return RedirectToAction(nameof(Index));
         }
     }
