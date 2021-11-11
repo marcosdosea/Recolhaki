@@ -12,17 +12,17 @@ using System.Threading.Tasks;
 namespace Service.Tests
 {
     [TestClass()]
-    public class ManterPessoaServiceTests
+    public class PessoaServiceTests
     {
         private recolhakiContext _context;
-        private IManterPessoaService _manterPessoaService;
+        private IPessoaService _PessoaService;
 
         [TestMethod()]
         public void Initialize()
         {
             //Arrange
             var builder = new DbContextOptionsBuilder<recolhakiContext>();
-           
+            builder.UseInMemoryDatabase("recolhaki");
             var options = builder.Options;
 
             _context = new recolhakiContext(options);
@@ -38,28 +38,28 @@ namespace Service.Tests
             _context.AddRange(pessoa);
             _context.SaveChanges();
 
-            _manterPessoaService = new ManterPessoaService(_context);
+            _PessoaService = new PessoaService(_context);
         }
 
         [TestMethod()]
         public void InserirTest()
         {
             // Act
-            _manterPessoaService.Inserir(new Pessoa() { IdPessoa = 4, Nome = "Graciliano Ramos" });
+            _PessoaService.Inserir(new Pessoa() { IdPessoa = 4, Nome = "Graciliano Ramos" });
             // Assert
-            Assert.AreEqual(4, _manterPessoaService.ObterTodos().Count());
-            var pessoa = _manterPessoaService.Obter(4);
+            Assert.AreEqual(4, _PessoaService.ObterTodos().Count());
+            var pessoa = _PessoaService.Obter(4);
             Assert.AreEqual("Graciliano Ramos", pessoa.Nome);
         }
 
         [TestMethod()]
         public void EditarTest()
         {
-            var pessoa = _manterPessoaService.Obter(3);
+            var pessoa = _PessoaService.Obter(3);
             pessoa.Nome = "Paulo Coelho";
             
-            _manterPessoaService.Editar(pessoa);
-            pessoa = _manterPessoaService.Obter(3);
+            _PessoaService.Editar(pessoa);
+            pessoa = _PessoaService.Obter(3);
             Assert.AreEqual("Paulo Coelho", pessoa.Nome);
             
         }
@@ -68,10 +68,10 @@ namespace Service.Tests
         public void RemoverTest()
         {
             // Act
-            _manterPessoaService.Remover(2);
+            _PessoaService.Remover(2);
             // Assert
-            Assert.AreEqual(2, _manterPessoaService.ObterTodos().Count());
-            var pessoa = _manterPessoaService.Obter(2);
+            Assert.AreEqual(2, _PessoaService.ObterTodos().Count());
+            var pessoa = _PessoaService.Obter(2);
             Assert.AreEqual(null, pessoa);
         }
         
@@ -79,7 +79,7 @@ namespace Service.Tests
         public void ObterTodosTest()
         {
             // Act
-            var listaPessoa = _manterPessoaService.ObterTodos();
+            var listaPessoa = _PessoaService.ObterTodos();
             // Assert
             Assert.IsInstanceOfType(listaPessoa, typeof(IEnumerable<Pessoa>));
             Assert.IsNotNull(listaPessoa);
@@ -91,7 +91,7 @@ namespace Service.Tests
         /*[TestMethod()]
         public void ObterTodosOrdenadoPorNomeTest()
         {
-            var listaPessoa = _manterPessoaService.ObterTodosOrdenadoPorNome();
+            var listaPessoa = _PessoaService.ObterTodosOrdenadoPorNome();
             Assert.IsInstanceOfType(listaPessoa, typeof(IEnumerable<Pessoa>));
             Assert.IsNotNull(listaPessoa);
             Assert.AreNotEqual(0, listaPessoa.Count());
@@ -102,7 +102,7 @@ namespace Service.Tests
         [TestMethod()]
         public void ObterTest()
         {
-            var pessoa = _manterPessoaService.Obter(1);
+            var pessoa = _PessoaService.Obter(1);
             Assert.IsNotNull(pessoa);
             Assert.AreEqual("Machado de Assis", pessoa.Nome);
         }
@@ -110,7 +110,7 @@ namespace Service.Tests
         [TestMethod()]
         public void ObterPorNomeTest()
         {
-            var pessoas = _manterPessoaService.ObterPorNome("Machado");
+            var pessoas = _PessoaService.ObterPorNome("Machado");
             Assert.IsNotNull(pessoas);
             Assert.AreEqual(1, pessoas.Count());
             Assert.AreEqual("Machado de Assis", pessoas.First().Nome);
@@ -119,7 +119,7 @@ namespace Service.Tests
         /*[TestMethod()]
         public void ObterPorNomeContendoTest()
         {
-            var pessoas = _manterPessoaService.ObterPorNomeContendo("Sommervile");
+            var pessoas = _PessoaService.ObterPorNomeContendo("Sommervile");
             Assert.IsNotNull(pessoas);
             Assert.AreEqual(1, pessoas.Count());
             Assert.AreEqual("Ian S. Sommervile", pessoas.First().Nome);
@@ -128,7 +128,7 @@ namespace Service.Tests
         /*[TestMethod()]
         public void ObterPorNomeOrdenadoDescendignTest()
         {
-            var pessoas = _manterPessoaService.ObterPorNomeOrdenadoDescending("Ia");
+            var pessoas = _PessoaService.ObterPorNomeOrdenadoDescending("Ia");
             Assert.IsNotNull(pessoas);
             Assert.AreEqual(1, pessoas.Count());
             Assert.AreEqual("Ian S. Sommervile", pessoas.First().Nome);
