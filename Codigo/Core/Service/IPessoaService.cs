@@ -15,7 +15,7 @@ namespace Core.Service
         IEnumerable<Pessoa> ObterPorNome(string nome);
         IEnumerable<Pessoa> ObterTodos();
         void Remover(int IdPessoa);
-        IEnumerable<ManterPessoaDTO> ObterPorNomeOrdenadoDescendign(string nome);
+        IEnumerable<PessoaDTO> ObterPorNomeOrdenadoDescendign(string nome);
 
         
     }

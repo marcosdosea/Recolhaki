@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace Service
 {
-    public class ManterColetorService : IManterColetorService
+    public class ColetorService : IColetorService
     {
         private readonly recolhakiContext _context;
 
 
-        public ManterColetorService(recolhakiContext context)
+        public ColetorService(recolhakiContext context)
         {
             _context = context;
         }
@@ -65,7 +65,7 @@ namespace Service
             throw new NotImplementedException();
         }
 
-        public IEnumerable<ManterColetorDTO> ObterPorNomeOrdenadoDescendign(string nome)
+        public IEnumerable<ColetorDTO> ObterPorNomeOrdenadoDescendign(string nome)
         {
             //var query = from pessoa in _context.Pessoa
             //             where pessoa.Nome.StartsWith(nome)
@@ -93,6 +93,11 @@ namespace Service
             _context.Remove(pessoa);
             _context.SaveChanges();
            
+        }
+
+        IEnumerable<ColetorDTO> IColetorService.ObterPorNomeOrdenadoDescendign(string nome)
+        {
+            throw new NotImplementedException();
         }
     }
 }

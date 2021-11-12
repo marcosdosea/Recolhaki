@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RecolhakiWeb.ViewModels
 {
-    public class ManterPessoaViewModel
+    public class PessoaViewModel
     {
         [Required]
         [Key]
