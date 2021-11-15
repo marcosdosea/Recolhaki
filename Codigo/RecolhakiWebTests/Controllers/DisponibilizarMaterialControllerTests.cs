@@ -4,14 +4,9 @@ using Core.Service;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using RecolhakiWeb.Controllers;
 using RecolhakiWeb.Mappers;
 using RecolhakiWeb.ViewModels;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RecolhakiWeb.Controllers.Tests
 {
@@ -32,7 +27,7 @@ namespace RecolhakiWeb.Controllers.Tests
 
             mockService.Setup(service => service.ObterTodos())
                 .Returns(GetTestMaterialReciclavel());
-            mockService.Setup(service => service.getMaterial(1))
+            mockService.Setup(service => service.Obter(1))
                 .Returns(GetTargetMaterialReciclavel());
             mockService.Setup(service => service.Editar(It.IsAny<Doacaomaterialreciclavel>()))
                 .Verifiable();

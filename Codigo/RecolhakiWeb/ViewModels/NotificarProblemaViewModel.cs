@@ -6,7 +6,7 @@ namespace RecolhakiWeb.ViewModels
     public class NotificarProblemaViewModel
     {
 
-
+        [Display(Name = "Código")]
         [Required]
         [Key]
         public int IdPessoa { get; set; }

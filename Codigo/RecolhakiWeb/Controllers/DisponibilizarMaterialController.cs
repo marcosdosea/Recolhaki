@@ -31,7 +31,7 @@ namespace RecolhakiWeb.Controllers
         // GET: DisponibilizarMaterialController/Details/5
         public ActionResult Details(int id)
         {
-            Doacaomaterialreciclavel doacaomaterialreciclavel = _disponibilizarMaterialService.getMaterial(id);
+            Doacaomaterialreciclavel doacaomaterialreciclavel = _disponibilizarMaterialService.Obter(id);
             DisponibilizarMaterialViewModel disponibilizarMaterialModel = _mapper.Map<DisponibilizarMaterialViewModel>(doacaomaterialreciclavel);
             return View(disponibilizarMaterialModel);
         }
@@ -58,7 +58,7 @@ namespace RecolhakiWeb.Controllers
         // GET: DisponibilizarMaterialController/Edit/5
         public ActionResult Edit(int id)
         {
-            Doacaomaterialreciclavel doacaomaterialreciclavel = _disponibilizarMaterialService.getMaterial(id);
+            Doacaomaterialreciclavel doacaomaterialreciclavel = _disponibilizarMaterialService.Obter(id);
             DisponibilizarMaterialViewModel manterColetorViewModel = _mapper.Map<DisponibilizarMaterialViewModel>(doacaomaterialreciclavel);
             return View(manterColetorViewModel);
         }
@@ -71,7 +71,7 @@ namespace RecolhakiWeb.Controllers
             if (ModelState.IsValid)
             {
                 var material = _mapper.Map<Doacaomaterialreciclavel>(disponibilizarMaterialViewModel);
-                _disponibilizarMaterialService.Inserir(material);
+                _disponibilizarMaterialService.Editar(material);
             }
             return RedirectToAction(nameof(Index));
         }
@@ -79,7 +79,7 @@ namespace RecolhakiWeb.Controllers
         // GET: DisponibilizarMaterialController/Delete/5
         public ActionResult Delete(int id)
         {
-            Doacaomaterialreciclavel doacaomaterialreciclavel = _disponibilizarMaterialService.getMaterial(id);
+            Doacaomaterialreciclavel doacaomaterialreciclavel = _disponibilizarMaterialService.Obter(id);
             DisponibilizarMaterialViewModel manterColetorViewModel = _mapper.Map<DisponibilizarMaterialViewModel>(doacaomaterialreciclavel);
             return View(manterColetorViewModel);
         }
@@ -87,7 +87,7 @@ namespace RecolhakiWeb.Controllers
         // POST: DisponibilizarMaterialController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult Delete(int id, DisponibilizarMaterialViewModel disponibilizarMaterialViewModel)
         {
             _disponibilizarMaterialService.Remover(id);
             return RedirectToAction(nameof(Index));

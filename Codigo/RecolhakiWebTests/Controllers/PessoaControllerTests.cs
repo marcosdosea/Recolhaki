@@ -4,14 +4,9 @@ using Core.Service;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using RecolhakiWeb.Controllers;
 using RecolhakiWeb.Mappers;
 using RecolhakiWeb.ViewModels;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RecolhakiWeb.Controllers.Tests
 {
@@ -143,7 +138,7 @@ namespace RecolhakiWeb.Controllers.Tests
         public void DeleteTest_Get()
         {
             // Act
-            var result = controller.Delete(GetTargetPessoaModel().IdAutor, GetTargetPessoaModel());
+            var result = controller.Delete(GetTargetPessoaModel().IdPessoa, GetTargetPessoaModel());
 
             // Assert
             Assert.IsInstanceOfType(result, typeof(RedirectToActionResult));

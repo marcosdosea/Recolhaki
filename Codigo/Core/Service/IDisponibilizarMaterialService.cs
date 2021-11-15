@@ -13,6 +13,6 @@ namespace Core.Service
         void Editar(Doacaomaterialreciclavel doacaomaterialreciclavel);
         IEnumerable<Doacaomaterialreciclavel> ObterPorNome(string nome);
         IEnumerable<Doacaomaterialreciclavel> ObterTodos();
-        Doacaomaterialreciclavel getMaterial(int IdDoacaoMaterialReciclavel);
+        Doacaomaterialreciclavel Obter(int IdDoacaoMaterialReciclavel);
     }
 }

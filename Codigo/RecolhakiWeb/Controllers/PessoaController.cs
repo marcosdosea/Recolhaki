@@ -17,9 +17,9 @@ namespace RecolhakiWeb.Controllers
         IPessoaService _PessoaService;
         IMapper _mapper;
 
-        public PessoaController(IPessoaService PessoaService, IMapper mapper)
+        public PessoaController(IPessoaService pessoaService, IMapper mapper)
         {
-            _PessoaService = PessoaService;
+            _PessoaService = pessoaService;
             _mapper = mapper;
         }
 
@@ -49,11 +49,11 @@ namespace RecolhakiWeb.Controllers
         // POST: PessoaController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(PessoaViewModel PessoaViewModel)
+        public ActionResult Create(PessoaViewModel pessoaViewModel)
         {
             if (ModelState.IsValid)
             {
-                var pessoa = _mapper.Map<Pessoa>(PessoaViewModel);
+                var pessoa = _mapper.Map<Pessoa>(pessoaViewModel);
                 _PessoaService.Inserir(pessoa);
             }
             return RedirectToAction(nameof(Index));
@@ -70,11 +70,11 @@ namespace RecolhakiWeb.Controllers
         // POST: PessoaController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, PessoaViewModel PessoaViewModel)
+        public ActionResult Edit(int id, PessoaViewModel pessoaViewModel)
         {
             if (ModelState.IsValid)
             {
-                var autor = _mapper.Map<Pessoa>(PessoaViewModel);
+                var autor = _mapper.Map<Pessoa>(pessoaViewModel);
                 _PessoaService.Editar(autor);
             }
             return RedirectToAction(nameof(Index));
@@ -91,7 +91,7 @@ namespace RecolhakiWeb.Controllers
         // POST: PessoaController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult Delete(int id, PessoaViewModel pessoaViewModel)
         {
             _PessoaService.Remover(id);
             return RedirectToAction(nameof(Index));

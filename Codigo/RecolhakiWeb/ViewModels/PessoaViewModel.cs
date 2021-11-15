@@ -8,6 +8,7 @@ namespace RecolhakiWeb.ViewModels
 {
     public class PessoaViewModel
     {
+        [Display(Name = "Código")]
         [Required]
         [Key]
         public int IdPessoa { get; set; }

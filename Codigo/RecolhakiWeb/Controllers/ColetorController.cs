@@ -16,9 +16,9 @@ namespace RecolhakiWeb.Controllers
         IColetorService _ColetorService;
         IMapper _mapper;
 
-        public ColetorController(IColetorService manterColetorService, IMapper mapper)
+        public ColetorController(IColetorService coletorService, IMapper mapper)
         {
-            _ColetorService = manterColetorService;
+            _ColetorService = coletorService;
             _mapper = mapper;
         }
 
@@ -50,11 +50,11 @@ namespace RecolhakiWeb.Controllers
         // POST: ManterController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(ColetorViewModel manterColetorViewModel)
+        public ActionResult Create(ColetorViewModel coletorViewModel)
         {
             if (ModelState.IsValid)
             {
-                var autor = _mapper.Map<Pessoa>(manterColetorViewModel);
+                var autor = _mapper.Map<Pessoa>(coletorViewModel);
                 _ColetorService.Inserir(autor);
             }
             return RedirectToAction(nameof(Index));
@@ -71,11 +71,11 @@ namespace RecolhakiWeb.Controllers
         // POST: ManterController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, ColetorViewModel manterColetorViewModel)
+        public ActionResult Edit(int id, ColetorViewModel coletorViewModel)
         {
             if (ModelState.IsValid)
             {
-                var autor = _mapper.Map<Pessoa>(manterColetorViewModel);
+                var autor = _mapper.Map<Pessoa>(coletorViewModel);
                 _ColetorService.Editar(autor);
             }
             return RedirectToAction(nameof(Index));
@@ -92,7 +92,7 @@ namespace RecolhakiWeb.Controllers
         // POST: ManterController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult Delete(int id, ColetorViewModel coletorViewModel)
         {
             _ColetorService.Remover(id);
             return RedirectToAction(nameof(Index));
