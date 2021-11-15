@@ -39,7 +39,7 @@ namespace RecolhakiWeb
             services.AddTransient<IDisponibilizarMaterialService, DisponibilizarMaterialService>();
             services.AddTransient<IPessoaService, PessoaService>();
             services.AddTransient<INotificarProblemaService, NotificarProblemaService>();
-            //services.AddTransient<ILivroService, LivroService>();
+            services.AddTransient<IAutorizarColetorService, AutorizarColetorService>();
             //services.AddTransient<IItemAcervoService, ItemAcervoService>();
 
             // injeção dependência mappers
