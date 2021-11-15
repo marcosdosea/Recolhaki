@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w/VwnF2ugr2MVuEimTAZO7hPhlHE8vAXQ6whMGet30Otq5gyHYN2V2RDvMmDEImR2Y2xQRELtO1QB/7e20lcxw==",
+  "dgSpecHash": "uM21zTB2JN6m7RCKxG3ZuJabcpHKyV90nYhVJNtKQ/LQV6uFn/v5ldtdgfndBI6C0u31arhbJ0cEb+D2LTKN2w==",
   "success": true,
-  "projectFilePath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\Core\\Core.csproj",
+  "projectFilePath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova pasta (7)\\Recolhaki\\Codigo\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Frauzo\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\Frauzo\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",

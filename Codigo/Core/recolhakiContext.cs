@@ -187,7 +187,7 @@ namespace Core
 
                 entity.ToTable("notificacao");
 
-                entity.HasIndex(e => e.PessoaIdPessoa)
+                entity.HasIndex(e => e.IdPessoa)
                     .HasName("fk_Notificacao_Pessoa1_idx");
 
                 entity.Property(e => e.IdNotificacao).HasColumnName("idNotificacao");
@@ -198,7 +198,7 @@ namespace Core
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
-                entity.Property(e => e.PessoaIdPessoa).HasColumnName("Pessoa_idPessoa");
+                entity.Property(e => e.IdPessoa).HasColumnName("idPessoa");
 
                 entity.Property(e => e.Status)
                     .IsRequired()
@@ -208,7 +208,7 @@ namespace Core
 
                 entity.HasOne(d => d.PessoaIdPessoaNavigation)
                     .WithMany(p => p.Notificacao)
-                    .HasForeignKey(d => d.PessoaIdPessoa)
+                    .HasForeignKey(d => d.IdPessoa)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("fk_Notificacao_Pessoa1");
             });
