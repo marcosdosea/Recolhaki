@@ -1,1 +1,10 @@
 *.cache
+
+Codigo/Service/obj/
+
+Codigo/Service/bin/
+
+Codigo/Core/obj/
+
+Codigo/Core/bin/
+
