@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dLo1ZEH5Rl0x8GqORm5pkxptUii4cq3IOnxd/2odw57+F+n1vcod/zZhEi3lJMf05t+BFFx9nxjHgB7bft7KwQ==",
+  "dgSpecHash": "YNeJTG+XvnJp5jPxIdPehndzOmuJmn8iy7dXa+oCg9g36+/E+/ah+Yz27igcbPG6U7B9+BuUp/1Pqov+jNhZ/Q==",
   "success": true,
-  "projectFilePath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova pasta (10)\\Recolhaki\\Codigo\\ServiceTests\\ServiceTests.csproj",
+  "projectFilePath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\ServiceTests\\ServiceTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Frauzo\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\Frauzo\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
