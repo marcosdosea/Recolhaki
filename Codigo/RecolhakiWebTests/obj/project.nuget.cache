@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ErvEY5pOveyOKpcFnKnPOCGy+x3bZamtiAUkzRbPEe0MHuj3UvMyB3pxToHGK382auX7k50qeT5DoDzm6xwDLQ==",
+  "dgSpecHash": "ibehvhMUhShYqkamCRCA1KkmKpIEy+AXYJ7gdG1fkTTTCnifMEOn9Bw0IsYgmm9oVzeXL+ZEZsmixvuI+iF0Uw==",
   "success": true,
-  "projectFilePath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova pasta (10)\\Recolhaki\\Codigo\\RecolhakiWebTests\\RecolhakiWebTests.csproj",
+  "projectFilePath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\RecolhakiWebTests\\RecolhakiWebTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Frauzo\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\Frauzo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

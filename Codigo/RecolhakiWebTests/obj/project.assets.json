@@ -9924,11 +9924,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova pasta (10)\\Recolhaki\\Codigo\\RecolhakiWebTests\\RecolhakiWebTests.csproj",
+      "projectUniqueName": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\RecolhakiWebTests\\RecolhakiWebTests.csproj",
       "projectName": "RecolhakiWebTests",
-      "projectPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova pasta (10)\\Recolhaki\\Codigo\\RecolhakiWebTests\\RecolhakiWebTests.csproj",
+      "projectPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\RecolhakiWebTests\\RecolhakiWebTests.csproj",
       "packagesPath": "C:\\Users\\Frauzo\\.nuget\\packages\\",
-      "outputPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova pasta (10)\\Recolhaki\\Codigo\\RecolhakiWebTests\\obj\\",
+      "outputPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\RecolhakiWebTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -9949,8 +9949,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova pasta (10)\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj": {
-              "projectPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova pasta (10)\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj"
+            "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj": {
+              "projectPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj"
             }
           }
         }

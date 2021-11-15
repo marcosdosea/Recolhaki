@@ -6543,11 +6543,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova pasta (10)\\Recolhaki\\Codigo\\Service\\Service.csproj",
+      "projectUniqueName": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova pasta (10)\\Recolhaki\\Codigo\\Service\\Service.csproj",
+      "projectPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\Service\\Service.csproj",
       "packagesPath": "C:\\Users\\Frauzo\\.nuget\\packages\\",
-      "outputPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova pasta (10)\\Recolhaki\\Codigo\\Service\\obj\\",
+      "outputPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -6568,8 +6568,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova pasta (10)\\Recolhaki\\Codigo\\Core\\Core.csproj": {
-              "projectPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova pasta (10)\\Recolhaki\\Codigo\\Core\\Core.csproj"
+            "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\Core\\Core.csproj": {
+              "projectPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\Core\\Core.csproj"
             }
           }
         }
