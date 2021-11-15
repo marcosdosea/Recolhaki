@@ -13,8 +13,8 @@ namespace Core
         public int IdNotificacao { get; set; }
         public string Status { get; set; }
         public string Descricao { get; set; }
-        public int PessoaIdPessoa { get; set; }
-
+        public int IdPessoa { get; set; }
+        public string Nome { get; set; }
         public virtual Pessoa PessoaIdPessoaNavigation { get; set; }
         public virtual ICollection<Doacaomaterialreciclavel> Doacaomaterialreciclavel { get; set; }
     }
