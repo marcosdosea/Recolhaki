@@ -6519,23 +6519,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jessica\\.nuget\\packages\\": {},
+    "C:\\Users\\Frauzo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\Core\\Core.csproj",
+      "projectUniqueName": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova pasta (10)\\Recolhaki\\Codigo\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\Core\\Core.csproj",
-      "packagesPath": "C:\\Users\\Jessica\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jessica\\Documents\\2021.1\\Engenharia de Software II\\Recolhaki\\Codigo\\Core\\obj\\",
+      "projectPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova pasta (10)\\Recolhaki\\Codigo\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\Frauzo\\.nuget\\packages\\",
+      "outputPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova pasta (10)\\Recolhaki\\Codigo\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jessica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Frauzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -6588,7 +6588,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
