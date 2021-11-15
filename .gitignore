@@ -1,4 +1,3 @@
-*.cache
 
 Codigo/Service/obj/
 
@@ -11,4 +10,18 @@ Codigo/Core/bin/
 Codigo/RecolhakiWeb/obj/
 
 Codigo/RecolhakiWeb/bin/
+
+*.cache
+
+*.editorconfig
+
+*.v2
+
+*.props
+
+*.targets
+
+Codigo/.vs/Recolhaki/DesignTimeBuild/
+
+Codigo/RecolhakiWeb/appsettings.json
 
