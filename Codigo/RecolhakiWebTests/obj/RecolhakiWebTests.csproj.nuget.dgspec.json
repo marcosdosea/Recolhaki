@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\RecolhakiWebTests\\RecolhakiWebTests.csproj": {}
+    "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\RecolhakiWebTests\\RecolhakiWebTests.csproj": {}
   },
   "projects": {
-    "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\Core\\Core.csproj": {
+    "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Frauzo\\.nuget\\packages\\",
-        "outputPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\Core\\obj\\",
+        "projectPath": "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Frauzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -70,26 +66,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\RecolhakiWebTests\\RecolhakiWebTests.csproj": {
+    "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\RecolhakiWebTests\\RecolhakiWebTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\RecolhakiWebTests\\RecolhakiWebTests.csproj",
+        "projectUniqueName": "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\RecolhakiWebTests\\RecolhakiWebTests.csproj",
         "projectName": "RecolhakiWebTests",
-        "projectPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\RecolhakiWebTests\\RecolhakiWebTests.csproj",
-        "packagesPath": "C:\\Users\\Frauzo\\.nuget\\packages\\",
-        "outputPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\RecolhakiWebTests\\obj\\",
+        "projectPath": "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\RecolhakiWebTests\\RecolhakiWebTests.csproj",
+        "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\RecolhakiWebTests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Frauzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -102,8 +94,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj": {
-                "projectPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj"
+              "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj": {
+                "projectPath": "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj"
               }
             }
           }
@@ -154,26 +146,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj": {
+    "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj",
+        "projectUniqueName": "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj",
         "projectName": "RecolhakiWeb",
-        "projectPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj",
-        "packagesPath": "C:\\Users\\Frauzo\\.nuget\\packages\\",
-        "outputPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\RecolhakiWeb\\obj\\",
+        "projectPath": "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj",
+        "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\RecolhakiWeb\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Frauzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -186,11 +174,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\Core\\Core.csproj": {
-                "projectPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\Core\\Core.csproj"
+              "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\Core\\Core.csproj"
               },
-              "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\Service\\Service.csproj": {
-                "projectPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\Service\\Service.csproj"
+              "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\Service\\Service.csproj"
               }
             }
           }
@@ -238,26 +226,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\Service\\Service.csproj": {
+    "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\Frauzo\\.nuget\\packages\\",
-        "outputPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\Service\\obj\\",
+        "projectPath": "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\Service\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Frauzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -270,8 +254,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\Core\\Core.csproj": {
-                "projectPath": "D:\\Arquivos diretos desse notebook\\Área de Trabalho\\Nova versão release 4\\Recolhaki\\Codigo\\Core\\Core.csproj"
+              "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\Core\\Core.csproj"
               }
             }
           }
@@ -308,7 +292,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       }
     }
