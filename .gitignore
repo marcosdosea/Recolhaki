@@ -13,6 +13,8 @@ Codigo/RecolhakiWeb/bin/
 
 *.cache
 
+*.dll
+
 *.editorconfig
 
 *.v2
