@@ -1,0 +1,6 @@
+C:\Users\natha\Desktop\Dev\Recolhaki\Codigo\RecolhakiWebTests\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Users\natha\Desktop\Dev\Recolhaki\Codigo\RecolhakiWebTests\obj\Debug\net5.0\RecolhakiWebTests.csproj.AssemblyReference.cache
+C:\Users\natha\Desktop\Dev\Recolhaki\Codigo\RecolhakiWebTests\obj\Debug\net5.0\RecolhakiWebTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natha\Desktop\Dev\Recolhaki\Codigo\RecolhakiWebTests\obj\Debug\net5.0\RecolhakiWebTests.AssemblyInfoInputs.cache
+C:\Users\natha\Desktop\Dev\Recolhaki\Codigo\RecolhakiWebTests\obj\Debug\net5.0\RecolhakiWebTests.AssemblyInfo.cs
+C:\Users\natha\Desktop\Dev\Recolhaki\Codigo\RecolhakiWebTests\obj\Debug\net5.0\RecolhakiWebTests.csproj.CoreCompileInputs.cache
