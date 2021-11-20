@@ -9918,19 +9918,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\natha\\.nuget\\packages\\": {}
+    "C:\\Users\\guilh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\RecolhakiWebTests\\RecolhakiWebTests.csproj",
+      "projectUniqueName": "D:\\User Files\\Documents\\Recolhaki\\Recolhaki\\Codigo\\RecolhakiWebTests\\RecolhakiWebTests.csproj",
       "projectName": "RecolhakiWebTests",
-      "projectPath": "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\RecolhakiWebTests\\RecolhakiWebTests.csproj",
-      "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\RecolhakiWebTests\\obj\\",
+      "projectPath": "D:\\User Files\\Documents\\Recolhaki\\Recolhaki\\Codigo\\RecolhakiWebTests\\RecolhakiWebTests.csproj",
+      "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
+      "outputPath": "D:\\User Files\\Documents\\Recolhaki\\Recolhaki\\Codigo\\RecolhakiWebTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9938,14 +9938,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://www.nuget.org/api/v2/curated-feeds/microsoftdotnet/": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj": {
-              "projectPath": "C:\\Users\\natha\\Desktop\\Final\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj"
+            "D:\\User Files\\Documents\\Recolhaki\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj": {
+              "projectPath": "D:\\User Files\\Documents\\Recolhaki\\Recolhaki\\Codigo\\RecolhakiWeb\\RecolhakiWeb.csproj"
             }
           }
         }
@@ -9996,7 +9996,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
