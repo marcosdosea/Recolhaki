@@ -29,20 +29,21 @@ namespace RecolhakiWeb
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            // injeção dependência DBContext			
+            // injeï¿½ï¿½o dependï¿½ncia DBContext			
             services.AddDbContext<recolhakiContext>(options =>
                 options.UseMySQL(
                     Configuration.GetConnectionString("RecolhakiDataBase")));
 
-            // injeção dependência Services
+            // injeï¿½ï¿½o dependï¿½ncia Services
             services.AddTransient<IColetorService, ColetorService>();
             services.AddTransient<IDisponibilizarMaterialService, DisponibilizarMaterialService>();
             services.AddTransient<IPessoaService, PessoaService>();
             services.AddTransient<INotificarProblemaService, NotificarProblemaService>();
             services.AddTransient<IAutorizarColetorService, AutorizarColetorService>();
+            services.AddTransient<IEmpresaService, EmpresaService>();
             //services.AddTransient<IItemAcervoService, ItemAcervoService>();
 
-            // injeção dependência mappers
+            // injeï¿½ï¿½o dependï¿½ncia mappers
             services.AddAutoMapper(typeof(Startup).Assembly);
         }
 

@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 namespace RecolhakiWeb.Controllers.Tests
 {
 	[TestClass()]
-	public class ColetorControllerTests
+	public class EmpresaControllerTests
 	{
 		private static ColetorController controller;
 
