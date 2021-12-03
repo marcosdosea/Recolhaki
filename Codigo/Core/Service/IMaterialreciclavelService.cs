@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Core.Service
 {
-    public interface IMaterialreciclavel
+    public interface IMaterialreciclavelService
     {
         void Editar(Materialreciclavel materialreciclavel);
         int Inserir(Materialreciclavel materialreciclavel);
