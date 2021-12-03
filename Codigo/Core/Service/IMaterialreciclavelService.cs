@@ -10,7 +10,7 @@ namespace Core.Service
     {
         void Editar(Materialreciclavel materialreciclavel);
         int Inserir(Materialreciclavel materialreciclavel);
-        Empresa Obter(int IdMaterialReciclavel);
+        Materialreciclavel Obter(int IdMaterialReciclavel);
         IEnumerable<Materialreciclavel> ObterTodos();
         void Remover(int IdMaterialReciclavel);
     }

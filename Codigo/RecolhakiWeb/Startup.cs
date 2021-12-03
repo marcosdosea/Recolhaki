@@ -33,6 +33,7 @@ namespace RecolhakiWeb
                options.UseMySQL(
                    Configuration.GetConnectionString("RecolhakiDataBase")));
             // injeção dependência Services
+            services.AddTransient<IPessoaService, PessoaService>();
             services.AddTransient<IEmpresaService, EmpresaService>();
             //services.AddTransient<IDisponibilizarMaterialService, DisponibilizarMaterialService>();
             //services.AddTransient<IPessoaService, PessoaService>();
