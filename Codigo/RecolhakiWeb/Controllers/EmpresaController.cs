@@ -25,7 +25,7 @@ namespace RecolhakiWeb.Controllers
         public ActionResult Index()
         {
             var listaAutores = _empresaService.ObterTodos();
-            var listaAutoresModel = _mapper.Map<List<EmpresaViewModels>>(listaAutores);
+            var listaAutoresModel = _mapper.Map<List<EmpresaViewModel>>(listaAutores);
             return View(listaAutoresModel);
 
         }
@@ -34,7 +34,7 @@ namespace RecolhakiWeb.Controllers
         public ActionResult Details(int id)
         {
             Empresa empresa = _empresaService.Obter(id);
-            EmpresaViewModels manterColetorModel = _mapper.Map<EmpresaViewModels>(empresa);
+            EmpresaViewModel manterColetorModel = _mapper.Map<EmpresaViewModel>(empresa);
             return View(manterColetorModel);
         }
 
@@ -47,11 +47,11 @@ namespace RecolhakiWeb.Controllers
         // POST: ManterController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(EmpresaViewModels EmpresaViewModels)
+        public ActionResult Create(EmpresaViewModel EmpresaViewModel)
         {
             if (ModelState.IsValid)
             {
-                var empresa = _mapper.Map<Empresa>(EmpresaViewModels);
+                var empresa = _mapper.Map<Empresa>(EmpresaViewModel);
                 _empresaService.Inserir(empresa);
             }
             return RedirectToAction(nameof(Index));
@@ -61,18 +61,18 @@ namespace RecolhakiWeb.Controllers
         public ActionResult Edit(int id)
         {
             Empresa empresa = _empresaService.Obter(id);
-            EmpresaViewModels EmpresaViewModels = _mapper.Map<EmpresaViewModels>(empresa);
-            return View(EmpresaViewModels);
+            EmpresaViewModel EmpresaViewModel = _mapper.Map<EmpresaViewModel>(empresa);
+            return View(EmpresaViewModel);
         }
 
         // POST: ManterController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, EmpresaViewModels EmpresaViewModels)
+        public ActionResult Edit(int id, EmpresaViewModel EmpresaViewModel)
         {
             if (ModelState.IsValid)
             {
-                var empresa = _mapper.Map<Empresa>(EmpresaViewModels);
+                var empresa = _mapper.Map<Empresa>(EmpresaViewModel);
                 _empresaService.Editar(empresa);
             }
             return RedirectToAction(nameof(Index));
@@ -82,8 +82,8 @@ namespace RecolhakiWeb.Controllers
         public ActionResult Delete(int id)
         {
             Empresa empresa = _empresaService.Obter(id);
-            EmpresaViewModels EmpresaViewModels = _mapper.Map<EmpresaViewModels>(empresa);
-            return View(EmpresaViewModels);
+            EmpresaViewModel EmpresaViewModel = _mapper.Map<EmpresaViewModel>(empresa);
+            return View(EmpresaViewModel);
         }
 
         // POST: ManterController/Delete/5

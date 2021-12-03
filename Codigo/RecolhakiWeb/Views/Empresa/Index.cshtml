@@ -1,4 +1,4 @@
-﻿@model IEnumerable<RecolhakiWeb.ViewModels.EmpresaViewModels>
+﻿@model IEnumerable<RecolhakiWeb.ViewModels.EmpresaViewModel>
 
 @{
     ViewData["Title"] = "Index";
@@ -85,7 +85,7 @@
                 @Html.DisplayFor(modelItem => item.Estado)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id=item.IdEmpresa }) |
+                @Html.ActionLink("Edit", "Edit", new { id = item.IdEmpresa }) |
                 @Html.ActionLink("Details", "Details", new { id = item.IdEmpresa }) |
                 @Html.ActionLink("Delete", "Delete", new { id = item.IdEmpresa })
             </td>

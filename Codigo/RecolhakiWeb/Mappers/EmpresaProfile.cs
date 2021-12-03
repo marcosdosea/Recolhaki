@@ -12,7 +12,7 @@ namespace RecolhakiWeb.Mappers
     {
         public EmpresaProfile()
         {
-            CreateMap<EmpresaViewModels, Empresa>().ReverseMap();
+            CreateMap<EmpresaViewModel, Empresa>().ReverseMap();
         }
     }
 }
