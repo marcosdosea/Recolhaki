@@ -1,9 +1,13 @@
+using Core;
+using Core.Service;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,6 +28,16 @@ namespace RecolhakiWeb
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            // injeção dependência DBContext
+            services.AddDbContext<recolhakiContext>(options =>
+               options.UseMySQL(
+                   Configuration.GetConnectionString("RecolhakiDataBase")));
+            // injeção dependência Services
+            services.AddTransient<IEmpresaService, EmpresaService>();
+            //services.AddTransient<IDisponibilizarMaterialService, DisponibilizarMaterialService>();
+            //services.AddTransient<IPessoaService, PessoaService>();
+            //services.AddTransient<INotificarProblemaService, NotificarProblemaService>();
+            //services.AddTransient<IAutorizarColetorService, AutorizarColetorService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

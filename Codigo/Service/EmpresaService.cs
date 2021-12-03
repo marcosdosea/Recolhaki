@@ -44,7 +44,7 @@ namespace Service
         /// <returns>Os dados da empresa ou nulo quando não encontrado</returns>
         public Empresa Obter(int IdEmpresa)
         {
-            return _context.Pessoa.Find(IdEmpresa);
+            return _context.Empresa.Find(IdEmpresa);
 
         }
 
@@ -72,7 +72,7 @@ namespace Service
 
         public IEnumerable<Empresa> ObterTodos()
         {
-            return _context.Pessoa;
+            return _context.Empresa;
         }
 
         /// <summary>
