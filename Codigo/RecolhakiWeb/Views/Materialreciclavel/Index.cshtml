@@ -1,0 +1,107 @@
+﻿@model IEnumerable<RecolhakiWeb.ViewModels.MaterialreciclavelViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdMaterialReciclavel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PesoAproximado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataSolicitacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StatusColeta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StatusNotificacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataColeta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataNotificacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataManifestacaoInteresse)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdPessoaColetor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdPessoaDoador)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdEmpresa)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdMaterialReciclavel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PesoAproximado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataSolicitacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StatusColeta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StatusNotificacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataColeta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataNotificacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataManifestacaoInteresse)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdPessoaColetor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdPessoaDoador)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdEmpresa)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.IdMaterialReciclavel }) |
+                @Html.ActionLink("Details", "Details", new { id=item.IdMaterialReciclavel}) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.IdMaterialReciclavel })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
