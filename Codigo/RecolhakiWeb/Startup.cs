@@ -1,3 +1,4 @@
+using AutoMapper;
 using Core;
 using Core.Service;
 using Microsoft.AspNetCore.Builder;
@@ -35,10 +36,12 @@ namespace RecolhakiWeb
             // injeção dependência Services
             services.AddTransient<IPessoaService, PessoaService>();
             services.AddTransient<IEmpresaService, EmpresaService>();
-            //services.AddTransient<IDisponibilizarMaterialService, DisponibilizarMaterialService>();
+            services.AddTransient<IMaterialreciclavelService, MaterialreciclavelService>();
             //services.AddTransient<IPessoaService, PessoaService>();
             //services.AddTransient<INotificarProblemaService, NotificarProblemaService>();
             //services.AddTransient<IAutorizarColetorService, AutorizarColetorService>();
+            // injeção dependência mappers
+            services.AddAutoMapper(typeof(Startup).Assembly);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
