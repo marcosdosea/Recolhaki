@@ -1,0 +1,93 @@
+﻿@model RecolhakiWeb.ViewModels.MaterialreciclavelViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>MaterialreciclavelViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="IdMaterialReciclavel" class="control-label"></label>
+                <input asp-for="IdMaterialReciclavel" class="form-control" />
+                <span asp-validation-for="IdMaterialReciclavel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tipo" class="control-label"></label>
+                <input asp-for="Tipo" class="form-control" />
+                <span asp-validation-for="Tipo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Descricao" class="control-label"></label>
+                <input asp-for="Descricao" class="form-control" />
+                <span asp-validation-for="Descricao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PesoAproximado" class="control-label"></label>
+                <input asp-for="PesoAproximado" class="form-control" />
+                <span asp-validation-for="PesoAproximado" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataSolicitacao" class="control-label"></label>
+                <input asp-for="DataSolicitacao" class="form-control" />
+                <span asp-validation-for="DataSolicitacao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StatusColeta" class="control-label"></label>
+                <input asp-for="StatusColeta" class="form-control" />
+                <span asp-validation-for="StatusColeta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StatusNotificacao" class="control-label"></label>
+                <input asp-for="StatusNotificacao" class="form-control" />
+                <span asp-validation-for="StatusNotificacao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataColeta" class="control-label"></label>
+                <input asp-for="DataColeta" class="form-control" />
+                <span asp-validation-for="DataColeta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataNotificacao" class="control-label"></label>
+                <input asp-for="DataNotificacao" class="form-control" />
+                <span asp-validation-for="DataNotificacao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataManifestacaoInteresse" class="control-label"></label>
+                <input asp-for="DataManifestacaoInteresse" class="form-control" />
+                <span asp-validation-for="DataManifestacaoInteresse" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdPessoaColetor" class="control-label"></label>
+                <input asp-for="IdPessoaColetor" class="form-control" />
+                <span asp-validation-for="IdPessoaColetor" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdPessoaDoador" class="control-label"></label>
+                <input asp-for="IdPessoaDoador" class="form-control" />
+                <span asp-validation-for="IdPessoaDoador" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdEmpresa" class="control-label"></label>
+                <input asp-for="IdEmpresa" class="form-control" />
+                <span asp-validation-for="IdEmpresa" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
