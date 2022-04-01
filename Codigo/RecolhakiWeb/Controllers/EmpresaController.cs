@@ -79,7 +79,7 @@ namespace RecolhakiWeb.Controllers
         }
 
         // GET: ManterController/Delete/5
-        public ActionResult Delete(int id)
+        public ActionResult Delete(int id, EmpresaViewModels empresaViewModels)
         {
             Empresa empresa = _empresaService.Obter(id);
             EmpresaViewModels EmpresaViewModels = _mapper.Map<EmpresaViewModels>(empresa);
