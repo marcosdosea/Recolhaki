@@ -96,5 +96,15 @@ namespace RecolhakiWeb.Controllers
             _pessoaService.Remover(id);
             return RedirectToAction(nameof(Index));
         }
+
+        public object Edit(object idPessoa, object v)
+        {
+            throw new NotImplementedException();
+        }
+
+        public object Delete(object idPessoa, object v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
